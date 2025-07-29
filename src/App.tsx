@@ -7,7 +7,7 @@ import { ContactPage } from "./pages/ContactPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/svensson-bygg">
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-grow">
